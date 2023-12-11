@@ -11,3 +11,5 @@ const Layouts = () => {
 };
 
 export default Layouts;
+
+// className="md:container md:mx-auto"
