@@ -5,10 +5,12 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><NavLink to='/'> Home </NavLink></li>
+        <li><NavLink to='/about'> About </NavLink></li>
+        <li><NavLink to='/contact'> Contact Me </NavLink></li>
     </>
     return (
         <div>
-            <div className="navbar h-14 bg-gradient-to-r from-gray-500 to-white-500 text-white shadow-2xl">
+            <div className="navbar h-14 bg-gradient-to-r from-gray-500 to-white-500 shadow-2xl text-gray-800">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
