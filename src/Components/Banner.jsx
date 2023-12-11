@@ -15,7 +15,7 @@ const Banner = () => {
                             <h1 className="text-6xl lg:text-7xl font-extrabold"><span className="text-5xl lg:text-6xl font-bold py-5">Hello ! I'm </span><br />Forhad Hossen</h1>
                             <h3 className="py-8 text-4xl font-light rubik-font">Web Develper</h3>
                             <a href="" download="forhad resume">
-                                <button className="btn btn-outline btn-secondary rounded-none" >Get Resume</button>
+                                <button className="btn btn-outline btn-secondary rounded-none my-12" >Get Resume</button>
                             </a>
                         </div>
 

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import logo from '../assets/favF.png';
 
 const Navbar = () => {
 
@@ -7,7 +8,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div className="navbar bg-base-200">
+            <div className="navbar h-14 bg-gradient-to-r from-gray-500 to-white-500 text-white shadow-2xl">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">
@@ -17,7 +18,7 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl"><img src={logo} alt="" className="h-[50px]"/>Forhad</a>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
