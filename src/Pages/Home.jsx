@@ -3,6 +3,7 @@ import Featured from "../Components/Featured";
 import Footer from "../Components/Footer";
 import Protfolio from "../Components/Protfolio";
 import Service from "../Components/Service";
+import Skill from "../Components/Skill";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Banner></Banner>
       <Service></Service>
       <Featured></Featured>
+      <Skill></Skill>
       <Protfolio></Protfolio>
       <Footer></Footer>
     </div>

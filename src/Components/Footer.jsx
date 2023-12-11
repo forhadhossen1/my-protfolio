@@ -27,15 +27,15 @@ const Footer = () => {
                                 <span>Terms of service</span>
                             </a>
                         </div>
-                        <div className="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
-                            <a href="mailto:mr.forhad1030@gmail.com" title="Email" className="flex items-center justify-center w-10 h-10 rounded-full dark:bg-violet-400 dark:text-gray-900">
+                        <div className="flex justify-center pt-4 my-8 space-x-4 lg:pt-0 lg:col-end-13">
+                            <a href="mailto:mr.forhad1030@gmail.com" title="Email" className="flex items-center justify-center w-10 h-10 rounded-full hover:bg-white dark:bg-violet-400 dark:text-gray-900">
                                 <MdEmail className='text-4xl text-red-600'/>
 
                             </a>
-                            <a href="https://www.facebook.com/profile.php?id=100085288886971" title="facebook" className="flex items-center justify-center w-10 h-10 rounded-full dark:bg-violet-400 dark:text-gray-900">
+                            <a href="https://www.facebook.com/profile.php?id=100085288886971" title="facebook" className="flex items-center justify-center w-10 h-10 rounded-full dark:bg-violet-400 dark:text-gray-900 hover:bg-white">
                                 <FaFacebook className='text-4xl text-blue-700'></FaFacebook>
                             </a>
-                            <a href="https://github.com/forhadhossen1" title="GitHub" className="flex items-center justify-center w-10 h-10 rounded-full dark:bg-violet-400 dark:text-gray-900">
+                            <a href="https://github.com/forhadhossen1" title="GitHub" className="flex items-center justify-center w-10 h-10 rounded-full hover:bg-white dark:bg-violet-400 dark:text-gray-900">
                                 <FaGithub className='text-4xl text-black'/>
                             </a>
                         </div>

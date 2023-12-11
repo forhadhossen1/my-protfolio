@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Protfolio = () => {
     return (
         <div className=" py-16">
-            <h1 className="text-6xl font-bold text-center text-black dark:text-white">ProtFolio</h1>
+            <h1 className="text-6xl lg:text-7xl font-bold text-center text-black dark:text-white">ProtFolio</h1>
 
 
 
