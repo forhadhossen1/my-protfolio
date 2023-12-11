@@ -1,6 +1,7 @@
 
-import { FaBootstrap, FaCss3, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icons/fa';
-import { SiExpress, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { FaBootstrap, FaCss3, FaFigma, FaHtml5, FaJs, FaNodeJs, FaReact } from 'react-icons/fa';
+import { SiExpress, SiFirebase, SiMongodb, SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -42,9 +43,9 @@ const About = () => {
                 </VerticalTimeline>
             </section>
 
-            <section>
+            <section className='my-12'>
                 <h2 className="text-4xl font-bold py-12 text-center">My Skills</h2>
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     {/* Replace with your skill cards */}
                     <div className="border rounded-md p-4 flex items-center">
                         <FaHtml5 className='text-8xl text-red-500 text-center'></FaHtml5>
@@ -81,6 +82,18 @@ const About = () => {
                     <div className="border rounded-md p-4 flex items-center">
                         <SiMongodb className='text-8xl text-green-700 text-center'/>
                         <h3 className="text-xl font-bold py-4">MongoDB</h3>
+                    </div>
+                    <div className="border rounded-md p-4 flex items-center">
+                        <SiFirebase className='text-8xl text-yellow-400 text-center'/>
+                        <h3 className="text-xl font-bold py-4">Firebase</h3>
+                    </div>
+                    <div className="border rounded-md p-4 flex items-center">
+                        <TbBrandNextjs className='text-8xl text-gray-400 text-center'/>
+                        <h3 className="text-xl font-bold py-4">NextJs</h3>
+                    </div>
+                    <div className="border rounded-md p-4 flex items-center">
+                        <FaFigma className='text-8xl text-orange-400 text-center'/>
+                        <h3 className="text-xl font-bold py-4">Figma</h3>
                     </div>
 
                 </div>
