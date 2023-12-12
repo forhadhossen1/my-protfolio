@@ -2,7 +2,7 @@ import '../Components/font.css'
 const Service = () => {
     return (
         <div className="my-10">
-            <h1 className="text-6xl lg:text-7xl font-bold text-center py-10 dark:text-white text-pink-900"> What I Do</h1>
+            <h1 className="text-6xl lg:text-7xl font-bold text-center py-10 dark:text-white "> What <span className='text-pink-600'>I</span> Do</h1>
 
             <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
                 <div className="card text-black dark:text-white bg-gray-100 p-3 rounded-none">

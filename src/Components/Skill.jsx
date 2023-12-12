@@ -1,7 +1,7 @@
 const Skill = () => {
     return (
         <div className="container mx-auto py-12">
-            <h2 className="text-7xl text-center font-bold mb-6">My Skills</h2>
+            <h2 className="text-7xl text-center font-bold mb-6"><span className="text-pink-600">My</span> Skills</h2>
 
             <div className="flex flex-col md:flex-row py-12 items-center">
 

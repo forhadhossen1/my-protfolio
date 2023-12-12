@@ -1,4 +1,5 @@
-import'./font.css'
+import Typewriter from 'typewriter-effect';
+import './font.css'
 const Banner = () => {
     return (
         <div className="hero min-h-[70vh]" style={{ backgroundImage: 'url(https://i.ibb.co/xHf2sD9/bg.png)' }}>
@@ -12,9 +13,17 @@ const Banner = () => {
 
 
                         <div className="flex-1 py-5 text-black dark:text-white">
-                            <h1 className="text-6xl lg:text-7xl font-extrabold"><span className="text-5xl lg:text-6xl font-bold py-5">Hello ! I'm </span><br />Forhad Hossen</h1>
-                            <h3 className="py-8 text-4xl font-light rubik-font">Web Develper</h3>
-                            <a href="" download="forhad resume">
+                            <h1 className="text-6xl lg:text-7xl font-extrabold"><span className="text-5xl lg:text-6xl font-bold py-5 text-pink-600">Hello <span className='text-orange-500 text-8xl'>!</span> I'm </span><br />Forhad <span className='text-pink-600'>Hossen</span></h1>
+                            <div className='py-8 text-4xl font-light rubik-font text-orange-700'>
+                                <Typewriter
+                                    options={{
+                                        strings: ['Web Developer'],
+                                        autoStart: true,
+                                        loop: true,
+                                    }}
+                                />
+                            </div>
+                            <a href="" download>
                                 <button className="btn btn-outline btn-secondary rounded-none my-12" >Get Resume</button>
                             </a>
                         </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl"><img src={logo} alt="" className="h-[50px]"/>Forhad</a>
+                    <a className="btn btn-ghost text-xl"><img src={logo} alt="" className="h-[50px] dark:text-pink-700"/>Forhad</a>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
