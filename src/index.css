@@ -8,3 +8,8 @@
 body {
     font-family: 'Hedvig Letters Serif', serif;
 }
+
+body{
+    background: black;
+    color: #fff;
+}

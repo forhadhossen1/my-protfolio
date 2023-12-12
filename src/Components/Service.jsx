@@ -16,7 +16,7 @@ const Service = () => {
                                 UI / UX Design
                             </h2>
                             <p className='rubik-font'>
-                                I'm a passionate UI/UX designer dedicated to crafting intuitive, user-centric digital experiences. With a blend of creativity and functionality, I specialize in creating visually engaging interfaces that prioritize seamless user interactions.
+                            I'm a passionate UI/UX designer, dedicated to crafting intuitive, user-centric digital experiences. With a perfect blend of creativity and functionality, I specialize in creating visually engaging interfaces that prioritize seamless user interactions, setting new benchmarks in user experience design.
                             </p>
                         </div>
 

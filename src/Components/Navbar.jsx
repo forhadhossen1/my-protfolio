@@ -10,7 +10,7 @@ const Navbar = () => {
     </>
     return (
         <div>
-            <div className="navbar h-14 bg-gradient-to-r from-gray-500 to-white-500 shadow-2xl text-gray-800">
+            <div className="navbar h-14 bg-gradient-to-r from-gray-700 to-white-200 shadow-2xl text-gray-200">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex="0" role="button" className="btn btn-ghost lg:hidden">

@@ -24,7 +24,7 @@ const About = () => {
         <div className="container mx-auto p-4">
             <h1 className="text-5xl font-bold mb-4 my-12 text-center pb-12 text-pink-600">About Me</h1>
             <div>
-                <h5 className="text-xl font-bold mb-4 my-12 text-center ">My name is Forhad, and I'm a 21-year-old living in Bangladesh.  My expertise covers various technology stacks, allowing me to skillfully handle a variety of projects. I take pride in my contributions to the tech industry and constantly strive for excellence in everything I do I'm professional Web Developer & Web Designer based in Bangladesh working on different projects. I can build awesome Designs with different programming languages.
+                <h5 className="text-xl font-bold mb-4 my-12 text-center text-gray-200">My name is Forhad, and I'm a 21-year-old living in Bangladesh.  My expertise covers various technology stacks, allowing me to skillfully handle a variety of projects. I take pride in my contributions to the tech industry and constantly strive for excellence in everything I do I'm professional Web Developer & Web Designer based in Bangladesh working on different projects. I can build awesome Designs with different programming languages.
                 </h5>
             </div>
 
@@ -34,7 +34,7 @@ const About = () => {
 
             <section className="mb-8 py-12">
                 <h2 className="text-4xl font-bold py-12 text-center">Education & Qualifications</h2>
-                <VerticalTimeline>
+                <VerticalTimeline className='text-black'>
                     {educationData.map((edu, index) => (
                         <VerticalTimelineElement
                             key={index}

@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div className="hero min-h-[70vh]" style={{ backgroundImage: 'url(https://i.ibb.co/xHf2sD9/bg.png)' }}>
             <div className="">
-                <div className="hero">
+                <div className="hero  dark:text-white bg-gradient-to-r from-gray-900 to-white">
                     <div className="min-h-[70vh] flex items-center flex-col px-0 mx-0 lg:flex-row-reverse lg:justify-between">
 
                         <div className="flex-1">
@@ -12,7 +12,7 @@ const Banner = () => {
                         </div>
 
 
-                        <div className="flex-1 py-5 text-black dark:text-white">
+                        <div className="flex-1 py-5 text-black z-10">
                             <div data-aos="flip-left"
                                 data-aos-easing="ease-out-cubic"
                                 data-aos-duration="2000">
@@ -28,8 +28,8 @@ const Banner = () => {
                                     }}
                                 />
                             </div>
-                            <a href="" download>
-                                <button className="btn btn-outline btn-secondary rounded-none my-12" >Get Resume</button>
+                            <a href="https://drive.google.com/uc?export=download&id=1M9KvOKqxK6kGEzRkHkQv4VRIpi-rPb0K" download>
+                                <button className="btn btn-outline btn-secondary rounded-none my-12 ">Get Resume</button>
                             </a>
                         </div>
 
