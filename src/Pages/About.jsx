@@ -22,7 +22,7 @@ const About = () => {
 
     return (
         <div className="container mx-auto p-4">
-            <h1 className="text-5xl font-bold mb-4 my-12 text-center pb-12">About Me</h1>
+            <h1 className="text-5xl font-bold mb-4 my-12 text-center pb-12 text-pink-600">About Me</h1>
             <div>
                 <h5 className="text-xl font-bold mb-4 my-12 text-center ">My name is Forhad, and I'm a 21-year-old living in Bangladesh.  My expertise covers various technology stacks, allowing me to skillfully handle a variety of projects. I take pride in my contributions to the tech industry and constantly strive for excellence in everything I do I'm professional Web Developer & Web Designer based in Bangladesh working on different projects. I can build awesome Designs with different programming languages.
                 </h5>
@@ -50,7 +50,7 @@ const About = () => {
             </section>
 
             <section className='my-12'>
-                <h2 className="text-4xl font-bold py-12 text-center">My Skills</h2>
+                <h2 className="text-4xl font-bold py-12 text-center text-pink-600">My Skills</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     {/* Replace with your skill cards */}
                     <div className="border rounded-md p-4 flex items-center">

@@ -1,7 +1,10 @@
 const Skill = () => {
     return (
         <div className="container mx-auto py-12">
-            <h2 className="text-7xl text-center font-bold mb-6"><span className="text-pink-600">My</span> Skills</h2>
+            <div data-aos="flip-left">
+                <h2 className="text-7xl text-center font-bold mb-6"><span className="text-pink-600">My</span> Skills</h2>
+            </div>
+
 
             <div className="flex flex-col md:flex-row py-12 items-center">
 
@@ -9,75 +12,81 @@ const Skill = () => {
                     <img src="https://i.ibb.co/F8ZjG2p/question.png" alt="" />
                 </div>
 
+
                 <div className="md:flex-1">
+                    <div data-aos="zoom-in-down">
+                        {/* HTML */}
+                        <div className="mb-4">
+                            <div className="flex items-center justify-between mb-2">
+                                <span>HTML</span>
+                                <span>80%</span>
+                            </div>
+                            <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
+                                <div className="bg-orange-600 h-full rounded-full w-5/6"></div>
+                            </div>
+                        </div>
 
-                    {/* HTML */}
-                    <div className="mb-4">
-                        <div className="flex items-center justify-between mb-2">
-                            <span>HTML</span>
-                            <span>80%</span>
+                        {/* CSS */}
+                        <div className="mb-4">
+                            <div className="flex items-center justify-between mb-2">
+                                <span>CSS</span>
+                                <span>80%</span>
+                            </div>
+                            <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
+                                <div className="bg-blue-600 h-full rounded-full w-5/6"></div>
+                            </div>
                         </div>
-                        <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
-                            <div className="bg-orange-600 h-full rounded-full w-5/6"></div>
-                        </div>
-                    </div>
 
-                    {/* CSS */}
-                    <div className="mb-4">
-                        <div className="flex items-center justify-between mb-2">
-                            <span>CSS</span>
-                            <span>80%</span>
+                        {/* JavaScript */}
+                        <div className="mb-4">
+                            <div className="flex items-center justify-between mb-2">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
+                                <div className="bg-yellow-400 h-full rounded-full w-4/6"></div>
+                            </div>
                         </div>
-                        <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
-                            <div className="bg-blue-600 h-full rounded-full w-5/6"></div>
-                        </div>
-                    </div>
 
-                    {/* JavaScript */}
-                    <div className="mb-4">
-                        <div className="flex items-center justify-between mb-2">
-                            <span>JavaScript</span>
-                            <span>70%</span>
+                        {/* React */}
+                        <div className="mb-4">
+                            <div className="flex items-center justify-between mb-2">
+                                <span>React</span>
+                                <span>75%</span>
+                            </div>
+                            <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
+                                <div className="bg-blue-400 h-full rounded-full w-3/4"></div>
+                            </div>
                         </div>
-                        <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
-                            <div className="bg-yellow-400 h-full rounded-full w-4/6"></div>
-                        </div>
-                    </div>
 
-                    {/* React */}
-                    <div className="mb-4">
-                        <div className="flex items-center justify-between mb-2">
-                            <span>React</span>
-                            <span>75%</span>
+                        {/* Node.js */}
+                        <div className="mb-4">
+                            <div className="flex items-center justify-between mb-2">
+                                <span>Node.js</span>
+                                <span>65%</span>
+                            </div>
+                            <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
+                                <div className="bg-green-500 h-full rounded-full w-4/6"></div>
+                            </div>
                         </div>
-                        <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
-                            <div className="bg-blue-400 h-full rounded-full w-3/4"></div>
-                        </div>
-                    </div>
 
-                    {/* Node.js */}
-                    <div className="mb-4">
-                        <div className="flex items-center justify-between mb-2">
-                            <span>Node.js</span>
-                            <span>65%</span>
-                        </div>
-                        <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
-                            <div className="bg-green-500 h-full rounded-full w-4/6"></div>
-                        </div>
-                    </div>
-
-                    {/* MongoDB */}
-                    <div className="mb-4">
-                        <div className="flex items-center justify-between mb-2">
-                            <span>MongoDB</span>
-                            <span>60%</span>
-                        </div>
-                        <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
-                            <div className="bg-green-800 h-full rounded-full w-3/5"></div>
+                        {/* MongoDB */}
+                        <div className="mb-4">
+                            <div className="flex items-center justify-between mb-2">
+                                <span>MongoDB</span>
+                                <span>60%</span>
+                            </div>
+                            <div className="bg-gradient-to-r from-gray-300 to-gray-500 h-3 rounded-full">
+                                <div className="bg-green-800 h-full rounded-full w-3/5"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+
+
+
 
 
             <div className="stats shadow flex my-12">
